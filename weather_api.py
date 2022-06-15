@@ -2,6 +2,7 @@ import json
 import requests
 
 class WeatherAPI:
+    
     def __init__(self, token) -> None:
         self.token = token
 
